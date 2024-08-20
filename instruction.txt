@@ -1,0 +1,11 @@
+steps to run the application on local system
+1.Open gitbash and enter command 'git init'.
+2.Next,Enter 'git remote add cnapp_dashboard https://github.com/Chithanoorimanikeshwar/cnapp_dashboard.
+3.Next,Enter git pull cnapp_dashboard public.
+4.Now close git bash.
+5.open cmd promt in current repo and type "npm install".
+6.After install complete,type "npm run dev".
+7.This command will automatically start React application and Json-server.
+8.After open any browser, search "http://localhost:3000".
+9.The application runs.
+10.All the application user data is store at backend/dashboard.json file.
