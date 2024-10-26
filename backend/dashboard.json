@@ -1,3 +1,10 @@
 {
-  "categeory": []
+  "categeory": [
+    {
+      "id": "5d99",
+      "created_date": "2024-10-25T06:45:52.282Z",
+      "categeoryName": "A-Validation",
+      "subCategeory": []
+    }
+  ]
 }

@@ -91,14 +91,15 @@ function Navbar({ toggleSlidebar }) {
         <ul className="flex flex-nowarp">{renderNavList()}</ul>
         <ul className="p-2">{renderWidget()}</ul>
         <div className="absolute bottom-0 right-0 ">
+      
           <button
-            className="p-2 border bg-blue-600 text-white inline-block "
+            className="p-2 border bg-red-600 text-white inline-block "
             onClick={editDashBoardWidgets}
           >
-            conform
+            Remove
           </button>
           <button
-            className="p-2 border bg-slate-500 text-white inline-block"
+            className="p-2 border bg-slate-500 text-white inline-block "
             onClick={toggleSlidebar}
           >
             cancel
@@ -109,7 +110,7 @@ function Navbar({ toggleSlidebar }) {
   } else {
     return (
       <div className="flex w-full h-[80%] justify-center items-center">
-        <p className="animate-pulse">Create a new Dashboard</p>
+        <p className="animate-pulse cursor-default">Create a new Dashboard</p>
       </div>
     );
   }
